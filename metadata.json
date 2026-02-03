@@ -1,0 +1,5 @@
+{
+  "name": "ACM 2026 - Hacker HUD Edition",
+  "description": "A futuristic, hacker-themed HUD interface for the ACM International Collegiate Programming Contest 2026, featuring draggable components and real-time data aesthetics.",
+  "requestFramePermissions": []
+}
