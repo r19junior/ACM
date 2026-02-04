@@ -21,7 +21,7 @@ const Eventos: React.FC<Props> = ({ activeSubPage }) => {
            <CountdownPanel targetDate="2026-03-15T09:00:00" />
            <div className="bg-white/[0.01] border border-white/10 p-10">
               <h3 className="text-white font-black uppercase mb-6 flex items-center gap-3">
-                <span className="text-[#ff2d2d] font-mono">></span> Próximos Eventos Globos
+                <span className="text-[#ff2d2d] font-mono">{'>'}</span> Próximos Eventos Globos
               </h3>
               <div className="space-y-4">
                  {events.map((ev, i) => (
@@ -44,7 +44,7 @@ const Eventos: React.FC<Props> = ({ activeSubPage }) => {
                <div key={i} className="bg-black/60 border-l-4 border-[#ff2d2d] p-10 hover:bg-[#ff2d2d]/10 transition-all cursor-pointer">
                   <h4 className="text-white text-xl font-black uppercase mb-4">{ev.title}</h4>
                   <p className="text-white/40 font-mono text-sm leading-relaxed mb-6">Nivel: Avanzado // Requisito: Laptop con GCC instalado.</p>
-                  <button className="text-[#ff2d2d] font-black text-[11px] tracking-widest border border-[#ff2d2d]/40 px-6 py-2 hover:bg-[#ff2d2d] hover:text-black transition-all">REGISTRARSE_></button>
+                  <button className="text-[#ff2d2d] font-black text-[11px] tracking-widest border border-[#ff2d2d]/40 px-6 py-2 hover:bg-[#ff2d2d] hover:text-black transition-all">REGISTRARSE_{'>'}</button>
                </div>
             ))}
          </div>

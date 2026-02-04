@@ -51,7 +51,7 @@ const DataPanel: React.FC<Props> = ({ title, type }) => {
                 )}
               </div>
               <div className="text-[10px] text-white/40 group-hover/item:text-white transition-colors uppercase leading-relaxed">
-                <span className="text-[#ff2d2d]/40 mr-2">></span>{item.text}
+                <span className="text-[#ff2d2d]/40 mr-2">{'>'}</span>{item.text}
               </div>
             </div>
           ))
